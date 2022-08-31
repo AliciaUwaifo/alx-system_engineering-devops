@@ -9,3 +9,4 @@ rmdir remove a directory
 cd - changes the working directory to the previous one 
 ls -la . .. /boot list all files in the current and parent directory
 file /tmp/iamafile prints the type of the file
+ln -s /bin/ls _ls_ create a symbolic link in the current directory
