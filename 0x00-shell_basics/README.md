@@ -12,3 +12,4 @@ file /tmp/iamafile prints the type of the file
 ln -s /bin/ls __ls__ symbolic link created in the current working directory
 cp -u *.html .. copies of all HTML files in the current working directory
 mv [[:upper:]]* /tmp/u move all the files beginning with an uppercase letter to the directory
+rm *~ delete all files in the current working directory that end with the character ~
