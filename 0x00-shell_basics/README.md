@@ -7,4 +7,4 @@ ls -lan display current directory in long format including hidden files
 mkdir create new directory
 rmdir remove a directory
 cd - changes the working directory to the previous one 
-ls -la .. list all files in the current and parent directory
+ls -a list all files in the current and parent directory
