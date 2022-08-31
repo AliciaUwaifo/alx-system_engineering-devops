@@ -1,5 +1,6 @@
 pwd print working directory
-ls list current directory
+ls list content of current directory
 cd ~ user's home directory
-ls -l list contents of thr current directory in long format
-ls -la display all files includng hidden files in long format
+ls -l display content of current directory in long format
+ls -la display current directory including hidden files
+ls -lan display current directory in long format including hidden files
