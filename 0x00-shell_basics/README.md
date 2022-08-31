@@ -5,3 +5,4 @@ ls -l display content of current directory in long format
 ls -la display current directory including hidden files
 ls -lan display current directory in long format including hidden files
 mkdir create new directory
+mv move file or directory
