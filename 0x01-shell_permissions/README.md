@@ -9,3 +9,4 @@ chmod ugo+x - adds execution permission to the owner, the group owner and the ot
 chmod 007 - gives owner and group no permission, but gives all permissions to other users
 chmod 753 - gives owner all permissions, group read and execute permission, gives other users write and execute permissions
 chmod --reference - sets the mode of the file
+chmod -R a+X ./ - executes permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files remain unchanged
