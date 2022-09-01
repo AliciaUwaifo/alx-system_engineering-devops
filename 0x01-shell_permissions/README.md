@@ -12,3 +12,4 @@ chmod --reference - sets the mode of the file
 chmod -R a+X ./ - executes permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files remain unchanged
 mkdir -m 751 my_dir - create a directory called my_dir with permissions 751 in the working directory
 chgrp school hello - changes the group owner to school for the file hello
+chown -R staff:vincent ./ - changes the owner and group owner for all the files and directories in the working directory
