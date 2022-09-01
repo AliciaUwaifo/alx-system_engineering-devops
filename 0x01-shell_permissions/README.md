@@ -15,4 +15,4 @@ chgrp school hello - changes the group owner to school for the file hello
 in the working directory
 chown -R - changes the owner and the group owner for all the files and directories in the working directory
 chown -h vincent:staff _hello - changes the owner and the group owner of _hello to vincent and staff respectively
-chown -from=guillaume betty hello - changes theowner of the file hello to betty only if its ownned by the user guillaume
+chown --from=guillaume betty hello - changes theowner of the file hello to betty only if its ownned by the user guillaume
