@@ -8,3 +8,4 @@ chmod u+x, g+x, o+r - execute permission to the owner and the group owner, and r
 chmod ugo+x - adds execution permission to the owner, the group owner and the other users
 chmod 007 - gives owner and group no permission, but gives all permissions to other users
 chmod 753 - gives owner all permissions, group read and execute permission, gives other users write and execute permissions
+chmod --reference - sets the mode of the file
