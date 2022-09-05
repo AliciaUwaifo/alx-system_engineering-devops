@@ -14,4 +14,5 @@ ls -t . | head - a script that displays the 10 newest files in the current direc
 sort | uniq -u - a script that takes a list of words as input and prints only words that appear exactly once
 egrep 'root' /etc/passwd - displays lines containing pattern "root" from the file /etc/passwd
 egrep -c 'bin' /etc/passwd - diplays the number of lines that contain the pattern "bin" in the file /etc/passwd
-egrep -A 3 'root' /etc/passwd - displays the lines containing the pattern "root" and 3 lines after them in the file /etc/passwd 
+egrep -A 3 'root' /etc/passwd - displays the lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
+egrep -v 'bin' /etc/passwd - displays all the lines in the file /etc/passwd that do not contain the pattern "bin" 
