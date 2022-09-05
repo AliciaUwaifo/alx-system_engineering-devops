@@ -16,4 +16,5 @@ egrep 'root' /etc/passwd - displays lines containing pattern "root" from the fil
 egrep -c 'bin' /etc/passwd - diplays the number of lines that contain the pattern "bin" in the file /etc/passwd
 egrep -A 3 'root' /etc/passwd - displays the lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
 egrep -v 'bin' /etc/passwd - displays all the lines in the file /etc/passwd that do not contain the pattern "bin"
-egrep ^[[:alpha:]] /etc/ssh/sshd_config - displays all the lines of  the file /etc/ssh/sshd_config starting with a letter 
+egrep ^[[:alpha:]] /etc/ssh/sshd_config - displays all the lines of  the file /etc/ssh/sshd_config starting with a letter
+tr 'Ac' 'Ze' - to replace all characters A and c from input to Z ande respectively 
