@@ -19,4 +19,5 @@ egrep -v 'bin' /etc/passwd - displays all the lines in the file /etc/passwd that
 egrep ^[[:alpha:]] /etc/ssh/sshd_config - displays all the lines of  the file /etc/ssh/sshd_config starting with a letter
 tr 'Ac' 'Ze' - to replace all characters A and c from input to Z ande respectively
 tr -d Cc - a script that removes all lettters c and C from input
-rev - a script that reverse its input 
+rev - a script that reverse its input
+cut -f 1,6 -d ':' /etc/passwd | sort - a script that displays all users and their home directories, sorted by users 
