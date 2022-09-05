@@ -21,7 +21,7 @@ tr 'Ac' 'Ze' - to replace all characters A and c from input to Z ande respective
 tr -d Cc - a script that removes all lettters c and C from input
 rev - a script that reverse its input
 cut -f 1,6 -d ':' /etc/passwd | sort - a script that displays all users and their home directories, sorted by users
-find . -empty -printf "%f\n" - finds all empty files and directories in the current directory and all sub-directories
-find . -type f -name "*.gif" -printf "%f\n" | rev | cut -c 5- | rev | sort -f - a script that lists all the files with a .gif extension in the current directory and all its sub-directories
+find . -empty -printf "%f\n" - finds all empty files and directories in the current directory and all the sub-directories
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f  - a script that lists all the files with a .gif extension in the current directory and all its sub-directories
 echo "$(cut -c 1 | tr -d '\n')" - a script that decodes acrostics that use the first letter of each line
 tail -n +2 | cut -f 1 | sort | uniq -c | sort -nr | head -11 | cut -c 9-  - a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests
