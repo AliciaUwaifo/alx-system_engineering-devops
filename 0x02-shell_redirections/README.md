@@ -8,4 +8,5 @@ head -3 iacta | tail -1 - displays the third line of the file iacta
 echo -e - script that creates a file named  \*\\'"Best School"\'\\*$\?\*\*\*\*\*\*:) containing the text Best School ending by a new line
 ls -la >> ls_cwd_content - script that writes into the file ls_cwd_content the result of the comman ls -la
 tail -1 iacta >> iacta - a script that the duplicates the last line of the file iacta
-find . -type f -name '*.js' -delete - a script that deletes all the regular files (not the directories) with a .js extension that are preesent in the current directory and all its subfolders 
+find . -type f -name '*.js' -delete - a script that deletes all the regular files (not the directories) with a .js extension that are preesent in the current directory and all its subfolders
+find -mindepth 1 -type d | wc -l - a script that counts the number of directories and sub-directories in the current directory 
