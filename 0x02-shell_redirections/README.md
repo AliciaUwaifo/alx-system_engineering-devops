@@ -20,4 +20,5 @@ egrep ^[[:alpha:]] /etc/ssh/sshd_config - displays all the lines of  the file /e
 tr 'Ac' 'Ze' - to replace all characters A and c from input to Z ande respectively
 tr -d Cc - a script that removes all lettters c and C from input
 rev - a script that reverse its input
-cut -f 1,6 -d ':' /etc/passwd | sort - a script that displays all users and their home directories, sorted by users 
+cut -f 1,6 -d ':' /etc/passwd | sort - a script that displays all users and their home directories, sorted by users
+find . -empty -printf "%f\n" - finds all empty files and directories in the current directory and all sub-directories
