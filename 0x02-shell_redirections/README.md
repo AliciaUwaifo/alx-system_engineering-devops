@@ -18,4 +18,5 @@ egrep -A 3 'root' /etc/passwd - displays the lines containing the pattern "root"
 egrep -v 'bin' /etc/passwd - displays all the lines in the file /etc/passwd that do not contain the pattern "bin"
 egrep ^[[:alpha:]] /etc/ssh/sshd_config - displays all the lines of  the file /etc/ssh/sshd_config starting with a letter
 tr 'Ac' 'Ze' - to replace all characters A and c from input to Z ande respectively
-tr -d Cc - a script that removes all lettters c and C from input 
+tr -d Cc - a script that removes all lettters c and C from input
+rev - a script that reverse its input 
