@@ -22,3 +22,4 @@ tr -d Cc - a script that removes all lettters c and C from input
 rev - a script that reverse its input
 cut -f 1,6 -d ':' /etc/passwd | sort - a script that displays all users and their home directories, sorted by users
 find . -empty -printf "%f\n" - finds all empty files and directories in the current directory and all sub-directories
+find . -type f -name "*.gif" -printf "%f\n" | rev | cut -c 5- | rev | sort -f - a script that lists all the files with a .gif extension in the current directory and all its sub-directories
