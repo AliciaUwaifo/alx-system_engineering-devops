@@ -11,3 +11,4 @@
 (10-love_exponent_breath) echo $((BREATH**LOVE)) - a script that displays the result BREATH to the power LOVE
 (11-binary_to_decimal) echo $((2#$BINARY)) - a script that converts a number from base 2 to base 10
 (12-combinations) echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo" - create a script that prints all possible combinations of two letters, except oo
+(12-print_float) printf "%.2f\n" $NUM - a script that prints a number with teo decimal places, followed by a new line
