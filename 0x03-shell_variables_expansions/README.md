@@ -8,3 +8,4 @@
 (7-create_global_variable) export BEST="School" - a script that creates a new global variable
 (8-true_knowledge) echo $((128 + TRUEKNOWLEDGE)) - a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line
 (9-divide_and_rule) echo $((POWER / DIVIDE)) - a script that prints the result of POWER divided by DIVIDE, followed by a new line
+(10-love_exponent_breath) echo $((BREATH**LOVE)) - a script that displays the result BREATH to the power LOVE
