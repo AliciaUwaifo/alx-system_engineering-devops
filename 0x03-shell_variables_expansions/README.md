@@ -12,3 +12,4 @@
 (11-binary_to_decimal) echo $((2#$BINARY)) - a script that converts a number from base 2 to base 10
 (12-combinations) echo {a..z}{a..z} | tr " " "\n" | egrep -v "oo" - create a script that prints all possible combinations of two letters, except oo
 (12-print_float) printf "%.2f\n" $NUM - a script that prints a number with teo decimal places, followed by a new line
+(100-decimal_to_hexadecimal) printf '%x\n' $DECIMAL - a script that converts a number from base 10 to base 16
