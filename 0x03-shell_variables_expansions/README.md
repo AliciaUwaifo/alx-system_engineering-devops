@@ -14,3 +14,4 @@
 (12-print_float) printf "%.2f\n" $NUM - a script that prints a number with teo decimal places, followed by a new line
 (100-decimal_to_hexadecimal) printf '%x\n' $DECIMAL - a script that converts a number from base 10 to base 16
 (101-rot13) tr '[A-Za-z]' '[N-ZA-Mn-za-m]' - a script that encodes and decodes text using the rot13 encryption. Assume ASCII
+(102-odd) cat -n | cut -c6- | grep -vP "[02468]\t" | cut -f2 - a script that prints every other line from the input, starting with the first line
